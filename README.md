@@ -1,2 +1,1 @@
-# Julia-Distilled
-Julia Programming Language Distilled
+# Julia Programming Language Distilled
