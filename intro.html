@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Julia Programming Distilled" href="chap_00/title-page.html" />
+    <link rel="next" title="Julia Environment Setup" href="chap_00/env-setup.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -178,7 +178,8 @@
             </li>
         </ul>
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="chap_00/title-page.html">Julia Programming Distilled</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chap_00/env-setup.html">Julia Environment Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chap_00/julia-envs.html">Installing Julia Package and Adding New Julia Environments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="chap_01/setup.html">Julia Environment Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="chap_02/lang-essentials.html">Julia Essentials</a></li>
 </ul>
@@ -377,9 +378,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#by-dr-saad-laouadi">By Dr. Saad Laouadi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation-and-background">Motivation and Background</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target Audience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation-and-background">Motivation and Background</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target Audience</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-julia">Why Julia?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-julia-essentials">Part I: Julia Essentials</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-data-science-with-julia">Part II: Data Science with Julia</a></li>
@@ -403,14 +406,13 @@ document.write(`
 <h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
 <p>In the era of big data and complex computational challenges, the need for powerful and efficient tools in data science and scientific computing has become paramount. Julia, a high-performance dynamic programming language, has emerged as a compelling solution, bridging the gap between ease of use and computational performance.
 Created in 2012 by researchers at MIT, Julia was designed with the goal of combining the simplicity and interactivity of languages like Python and R with the speed and efficiency of lower-level languages like C and Fortran. By leveraging features such as just-in-time (JIT) compilation, multiple dispatch, and metaprogramming, Julia offers an expressive and productive environment while delivering performance comparable to compiled languages.</p>
-</section>
 <section id="motivation-and-background">
-<h2>Motivation and Background<a class="headerlink" href="#motivation-and-background" title="Link to this heading">#</a></h2>
+<h3>Motivation and Background<a class="headerlink" href="#motivation-and-background" title="Link to this heading">#</a></h3>
 <p>In the rapidly evolving landscape of data science and scientific computing, researchers and practitioners often face the challenge of balancing ease of use with computational performance. Traditional scripting languages, while expressive and accessible, can struggle with resource-intensive tasks involving large datasets or complex simulations. Conversely, low-level languages offer unparalleled performance but can hinder productivity and code maintainability.</p>
 <p>Julia was born out of the desire to bridge this gap, providing a powerful and expressive language that combines the simplicity and interactivity of scripting languages with the performance and efficiency of compiled languages. As Julia continues to gain traction, there is a growing demand for comprehensive resources that can guide users through the language’s capabilities and its applications in data science and scientific computing domains.</p>
 </section>
 <section id="target-audience">
-<h2>Target Audience<a class="headerlink" href="#target-audience" title="Link to this heading">#</a></h2>
+<h3>Target Audience<a class="headerlink" href="#target-audience" title="Link to this heading">#</a></h3>
 <p>This book is tailored for data scientists, researchers, and developers seeking to leverage the power of Julia for their data analysis and scientific computing endeavors. It caters to a wide range of experience levels:</p>
 <ul class="simple">
 <li><p>For beginners with familiarity in basic programming concepts and exposure to data analysis or scientific computing principles.</p></li>
@@ -424,6 +426,7 @@ Created in 2012 by researchers at MIT, Julia was designed with the goal of combi
 <li><p>Basic knowledge of machine learning concepts (for the machine learning and AI sections of the book).</p></li>
 </ul>
 <p>Prior experience with languages like Python, R, MATLAB, or other data analysis tools is beneficial but not essential. The book will provide necessary context and explanations to bridge any gaps in knowledge, ensuring a smooth learning experience for readers from diverse backgrounds.</p>
+</section>
 </section>
 <section id="why-julia">
 <h2>Why Julia?<a class="headerlink" href="#why-julia" title="Link to this heading">#</a></h2>
@@ -477,8 +480,10 @@ Created in 2012 by researchers at MIT, Julia was designed with the goal of combi
 <li><p>Code samples and Jupyter notebooks showcasing the concepts and techniques covered in the book.</p></li>
 <li><p>Sample datasets for practicing data analysis and machine learning tasks.</p></li>
 </ul>
-<p><strong>Acknowledgments or Contributions</strong>: The development of this book would not have been possible without the efforts made by Julia Developers. We would like to express our gratitude to:
-- The Julia community and core developers for their continuous efforts in improving and advancing the Julia programming language.</p>
+<p><strong>Acknowledgments or Contributions</strong>: The development of this book would not have been possible without the efforts made by Julia Developers. We would like to express our gratitude to:</p>
+<ul class="simple">
+<li><p>The Julia community and core developers for their continuous efforts in improving and advancing the Julia programming language.</p></li>
+</ul>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -515,11 +520,11 @@ Created in 2012 by researchers at MIT, Julia was designed with the goal of combi
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="chap_00/title-page.html"
+       href="chap_00/env-setup.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Julia Programming Distilled</p>
+        <p class="prev-next-title">Julia Environment Setup</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -540,9 +545,11 @@ Created in 2012 by researchers at MIT, Julia was designed with the goal of combi
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#by-dr-saad-laouadi">By Dr. Saad Laouadi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation-and-background">Motivation and Background</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target Audience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation-and-background">Motivation and Background</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target Audience</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-julia">Why Julia?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-i-julia-essentials">Part I: Julia Essentials</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-ii-data-science-with-julia">Part II: Data Science with Julia</a></li>
