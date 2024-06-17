@@ -305,7 +305,7 @@ pip install jupyterlab
 
 The pip install jupyterlab command installs JupyterLab, a web-based interactive development environment for Jupyter notebooks, code, and data. This step ensures you have the necessary IDE to run and manage your Jupyter notebooks.
 
-2. **Install Julia**: Download and install Julia from the official Julia website if you haven't already did, refer For more details on how to install Julia, refer [to the Installing Julia section]((#installing-julia)).
+2. **Install Julia**: Download and install Julia from the official Julia website if you haven't already did, refer For more details on how to install Julia, refer [to the Installing Julia section](#installing-julia).
 3. Install the IJulia Package: 
 	- Open the Julia REPL by typing `julia` in your terminal or command prompt.
 	- In the Julia REPL, add the IJulia package by running:
