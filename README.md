@@ -12,8 +12,6 @@ This book is structured to cover a wide range of topics, from the basics of Juli
 
 ## What You Will Learn
 
-## What You Will Learn
-
 In *Julia Distilled*, we will cover a comprehensive range of topics to help you master the Julia programming language. This book is structured to guide you from the fundamentals to advanced concepts, ensuring a solid foundation and practical expertise. Here’s a detailed overview of what you can expect to learn:
 
 - **Language Essentials**: Begin with the basics of Julia, including its syntax, data types, control structures, and functions. You'll learn how to write efficient and readable code, harnessing the full power of Julia's high-performance capabilities. This section will also cover essential programming paradigms, such as functional and object-oriented programming, within the Julia context.
