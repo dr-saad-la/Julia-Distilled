@@ -1,8 +1,8 @@
 # Julia Programming Language Distilled
 
-### By Dr. Saad Laouadi
+## By Dr. Saad Laouadi
 
-### Introduction
+## Introduction
 
 In the era of big data and complex computational challenges, the need for powerful and efficient tools in data science and scientific computing has become paramount. Julia, a high-performance dynamic programming language, has emerged as a compelling solution, bridging the gap between ease of use and computational performance.
 Created in 2012 by researchers at MIT, Julia was designed with the goal of combining the simplicity and interactivity of languages like Python and R with the speed and efficiency of lower-level languages like C and Fortran. By leveraging features such as just-in-time (JIT) compilation, multiple dispatch, and metaprogramming, Julia offers an expressive and productive environment while delivering performance comparable to compiled languages.

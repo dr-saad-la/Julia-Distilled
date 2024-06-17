@@ -1,2 +1,0 @@
-# Julia Programming Distilled
-

@@ -1,2 +1,0 @@
-# Julia Environment Setup
-

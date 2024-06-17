@@ -3,6 +3,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: chap_00/title-page
-- file: chap_01/setup
-- file: chap_02/lang-essentials
+- file: chap_00/env-setup
+- file: chap_00/julia-envs
+- file: chap_01/lang-essentials
