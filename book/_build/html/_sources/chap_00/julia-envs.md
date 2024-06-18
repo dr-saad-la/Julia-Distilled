@@ -1,5 +1,7 @@
-# Installing Julia Package and Adding New Julia Environments
+# Advanced Setup
 
+
+## Installing Julia Package and Adding New Julia Environments
 
 ## Setting up the Julia Environment
 
