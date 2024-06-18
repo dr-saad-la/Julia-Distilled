@@ -6,3 +6,4 @@ chapters:
 - file: chap_00/env-setup
 - file: chap_00/julia-envs
 - file: chap_01/lang-essentials
+- file: chap_01/variables
