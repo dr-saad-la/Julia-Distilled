@@ -1,7 +1,5 @@
 # Julia Programming Language Distilled
 
-# Julia Distilled
-
 [![Julia Distilled](https://img.shields.io/badge/Julia-distilled-green)](https://img.shields.io/badge/Julia-distilled-green)
 [![GitHub Pages](https://img.shields.io/badge/passing-brightgreen)](https://dr-saad-la.github.io/julia-distilled)
 [![GitHub Check Runs](https://img.shields.io/github/check-runs/dr-saad-la/julia-distilled/gh-pages)](https://img.shields.io/github/check-runs/dr-saad-la/julia-distilled/gh-pages)
