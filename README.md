@@ -5,6 +5,8 @@
 [![Julia Distilled](https://img.shields.io/badge/Julia-distilled-green)](https://img.shields.io/badge/Julia-distilled-green)
 [![GitHub Pages](https://img.shields.io/badge/passing-brightgreen)](https://dr-saad-la.github.io/julia-distilled)
 [![GitHub Check Runs](https://img.shields.io/github/check-runs/dr-saad-la/julia-distilled/gh-pages)](https://img.shields.io/github/check-runs/dr-saad-la/julia-distilled/gh-pages)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/dr-saad-la/Julia-Distilled)
+
 
 Welcome to *Julia Distilled*, an online book designed to provide a comprehensive guide to mastering the Julia programming language. Whether you are a beginner looking to get started or an experienced programmer seeking to deepen your knowledge, this book offers valuable insights and practical examples to enhance your understanding of Julia.
 
