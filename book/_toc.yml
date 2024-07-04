@@ -2,8 +2,20 @@
 
 format: jb-book
 root: intro
+
 chapters:
 - file: chap_00/env-setup
 - file: chap_00/julia-envs
+- file: chap_00/utilities
 - file: chap_01/lang-essentials
 - file: chap_01/variables
+  sections:
+    - file: chap_01/variables/integers
+    - file: chap_01/variables/floats
+    - file: chap_01/variables/bools
+    - file: chap_01/variables/chars
+    - file: chap_01/variables/strings
+- file: chap_02/control_flow
+  sections:
+    - file: chap_02/control_flow/conditionals
+    - file: chap_02/control_flow/loops
