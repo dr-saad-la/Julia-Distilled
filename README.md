@@ -37,19 +37,19 @@ You can navigate through the table of contents to explore different sections of 
 
 Interactive examples are embedded throughout the book, allowing you to experiment with code directly. This hands-on approach is designed to enhance your learning experience and deepen your understanding of the Julia programming language.
 
-## Acknowledgments
+<!-- ## Acknowledgments -->
 
 ## How to Contact Me
 
 If you have any questions, feedback, or inquiries, please feel free to reach out.
 
-**Email**: [dr.saad.laouadi@example.com](mailto:dr.saad.laouadi@example.com)
+**Email**: [dr.saad.laouadi@gmail.com](mailto:dr.saad.laouadi@example.com)
 
 ## Copyright
 
 &copy; 2024 Dr. Saad Laouadi. All rights reserved.
 
-Unauthorized use and/or duplication of this material without express and written permission from the author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Dr. Saad Laouadi with appropriate and specific direction to the original content.
+Unauthorized use and/or duplication of this material without express and written permission from the author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to `Dr. Saad Laouadi` with appropriate and specific direction to the original content.
 
 
 
