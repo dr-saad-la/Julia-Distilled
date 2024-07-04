@@ -4,9 +4,11 @@ format: jb-book
 root: intro
 
 chapters:
-- file: chap_00/env-setup
-- file: chap_00/julia-envs
-- file: chap_00/utilities
+- file: chap_00/intro
+  sections:
+  - file: chap_00/intro/env-setup
+  - file: chap_00/intro/julia-envs
+  - file: chap_00/intro/utilities
 - file: chap_01/lang-essentials
 - file: chap_01/variables
   sections:

@@ -1,7 +1,5 @@
 # Julia Essentials
 
-## Introduction to Julia
-
 Julia is a high-performance, dynamic programming language designed for technical and scientific computing. It combines the ease of use of languages like Python and R with the speed of languages like C and Fortran. In this lesson, we will cover the basic essentials of Julia to get you started on your programming journey.
 
 ## What is Julia?
