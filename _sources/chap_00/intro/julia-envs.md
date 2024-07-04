@@ -1,4 +1,4 @@
-# Advanced Setup: Installing Julia Packages and Adding New Julia Environments
+# Installing Packages and Adding New Environments
 
 In this section, we will explore the advanced setup of Julia programming environment. This includes installing Julia packages and creating isolated environments for different projects. These practices ensure that Julia projects will have the correct dependencies, avoiding conflicts and making our work more reproducible and manageable.
 
