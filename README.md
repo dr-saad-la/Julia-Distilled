@@ -10,6 +10,33 @@ Welcome to *Julia Distilled*, an online book designed to provide a comprehensive
 
 This book is structured to cover a wide range of topics, from the basics of Julia syntax to advanced data analysis and scientific computing techniques. Each chapter is carefully crafted to ensure a smooth learning curve, providing clear explanations, code snippets, and real-world applications.
 
+
+## Table of Contents
+
+1. **Language Essentials**
+   - Introduction to Julia
+   - Syntax and Data Types
+   - Control Structures
+   - Functions
+2. **Reading Data with Julia**
+   - Importing Data from CSV Files
+   - Working with Excel Files
+   - Accessing Databases
+3. **Exploring Data with Julia**
+   - Data Cleaning and Transformation
+   - Descriptive Statistics
+   - Data Visualization with `Plots.jl` and `Gadfly.jl`
+4. **Machine Learning with Julia**
+   - Introduction to Machine Learning
+   - Regression and Classification
+   - Clustering Techniques
+   - Using `MLJ.jl` and `Flux.jl`
+5. **Deep Learning with Julia**
+   - Fundamentals of Neural Networks
+   - Convolutional and Recurrent Networks
+   - Advanced Architectures: GANs and Autoencoders
+   - Practical Examples with `Flux.jl` and `Knet.jl`
+
 ## What You Will Learn
 
 In *Julia Distilled*, we will cover a comprehensive range of topics to help you master the Julia programming language. This book is structured to guide you from the fundamentals to advanced concepts, ensuring a solid foundation and practical expertise. Here’s a detailed overview of what you can expect to learn:
